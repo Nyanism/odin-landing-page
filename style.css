@@ -7,7 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #1f2937;
-  padding: 10px 60px 0;
+  padding: 10px 80px 0;
 }
 
 .header, .hero {
@@ -68,6 +68,7 @@ li {
 
   border-radius: 10px;
   border-color: #3882f6;
+  border-style: solid;
   padding: 5px 20px;
 }
 
@@ -102,6 +103,8 @@ li {
   display: flex;
   justify-content: center;
   gap: 50px;
+
+  margin-bottom: 60px;
 }
 
 .info {
@@ -120,4 +123,87 @@ li {
   border-radius: 30px;
   width: 150px;
   height: 150px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #e5e7eb;
+  padding: 80px 150px;
+}
+
+.quotetext {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quoteperson {
+  font-weight: 500;
+  align-self: flex-end;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 60px 100px;
+
+}
+
+.actionbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #3882f6;
+  border-radius: 10px;
+  width: 800px;
+  height: 100px;
+  padding: 0 50px;
+  gap: 30px;
+}
+
+.actionwords {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+}
+
+.actiontitle {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.actiontext {
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+}
+
+.actionbutton {
+  background-color: transparent;
+  font-weight: 700;
+  color: white;
+
+  border-radius: 10px;
+  border-color: white;
+  padding: 5px 30px;
+  border-style: solid;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #1f2937;
+  padding: 30px 0;
+  color: white;
 }
